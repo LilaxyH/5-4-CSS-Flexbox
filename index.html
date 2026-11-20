@@ -4,36 +4,55 @@
     <meta charset="utf-8" />
     <title>Unit 4 - Flexbox</title>
     <style>
+
+      .book_container {
+          background-color: rgba(250, 196, 80, 0.425);
+          display: flex;
+          justify-content: flex-start;
+          margin: 10px;
+      }
+
+      .book_description {
+        background-color: rgba(255, 187, 216, 0.705);
+        width: 400px;
+        margin: 10px;
+      }
     </style>
   </head>
   <body>
     <h1>Cozy Reads</h1>
 
-      <img
+    <div class="book_container">
+      <img class="book_container"
         src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654581271i/61242426.jpg"
         width="200"
+        class="book_item"
       />
-      <p>
+      <p class="book_description">
         It’s not easy to build a coffee shop in a place that has never had
         coffee before. #CozyFantasy
       </p>
+    </div>
 
-    <img
+    <div class="book_container">
+    <img class="book_container"
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1569514209i/45047384.jpg"
       width="200"
     />
-    <p>
+    <p class="book_description">
       The main character must oversee an inspection of a house for magical
       children. #CozyFantasy
     </p>
-
-    <img
+    </div>
+    <div class="book_container">
+    <img class="book_container"
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1601307658i/53310061.jpg"
       width="200"
     />
-    <p>
+    <p class="book_description">
       Who better to help cover up an accidental murder than overly protective
       aunties. #CozyMystery
     </p>
+    </div>
   </body>
 </html>
